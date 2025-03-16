@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class PathokAuthService {
+public class RestaurantAuthService {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PathokAuthService.class, args);
+		SpringApplication.run(RestaurantAuthService.class, args);
 	}
 
 }

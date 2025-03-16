@@ -18,8 +18,8 @@ public class SwaggerConfig {
                         addList("Bearer Authentication"))
                 .components(new Components().addSecuritySchemes
                         ("Bearer Authentication", createAPIKeyScheme()))
-                .info(new Info().title("PATHOK-AUTH-API")
-                        .description("PATHOK-AUTH-API")
+                .info(new Info().title("RESTAURANT-AUTH-API")
+                        .description("RESTAURANT-AUTH-API")
                         .version("0.0.1").contact(new Contact().name("Mahadi Hasan")
                                 .url("https://github.com/mahadihasan300"))
                         .license(new License().name("License of API")

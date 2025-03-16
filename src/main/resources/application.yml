@@ -22,14 +22,14 @@ spring:
     database-platform: org.hibernate.dialect.MySQL8Dialect
 
   application:
-    name: PATHOK-AUTH-SERVICE
+    name: RESTAURANT-AUTH-SERVICE
 
 eureka:
   client:
     service-url:
       defaultZone : http://localhost:8761/eureka/
       instance:
-        appname: PATHOK-AUTH-SERVICE
+        appname: RESTAURANT-AUTH-SERVICE
 
 server:
   port: 8081
