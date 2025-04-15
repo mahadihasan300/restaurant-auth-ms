@@ -28,8 +28,12 @@ eureka:
   client:
     service-url:
       defaultZone : http://eureka-server:8761/eureka/
-      instance:
-        appname: RESTAURANT-AUTH-SERVICE
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${random.value}
+    hostname: eureka-server
 
 server:
   port: 8081
